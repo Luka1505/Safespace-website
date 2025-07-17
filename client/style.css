@@ -347,38 +347,6 @@ textarea {
   min-height: 150px;
   box-sizing: border-box;
 }
-
-body.dark-mode {
-  background-color: #1e1e1e;
-  color: #f0f0f0;
-}
-
-body.dark-mode header,
-body.dark-mode footer {
-  background-color: #333;
-}
-
-body.dark-mode .testimonial,
-body.dark-mode .feature-card,
-body.dark-mode .resource,
-body.dark-mode .quote blockquote {
-  background-color: #2a2a2a;
-  color: #f0f0f0;
-  border-left-color: #6a9eff;
-}
-
-#themeToggle {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  padding: 10px 15px;
-  background: #4e8cff;
-  color: white;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-}
-
 .emoji-tracker {
   margin: 10px 0;
   font-size: 1.5rem;
