@@ -1,0 +1,57 @@
+<!-- journal.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Post Feelings | SafeSpace</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <button id="themeToggle">Toggle Theme</button>
+    <h1>Share Your Feelings</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="journal.html">Post</a>
+      <a href="wall.html">Feelings Wall</a>
+      <a href="resources.html">Resources</a>
+    </nav>
+  </header>
+
+  <main class="form-container">
+    <form id="journalForm">
+      <label>How’s your mood right now?</label>
+      <div class="emoji-tracker">
+        <span>😢</span>
+        <span>😐</span>
+        <span>😊</span>
+        <span>😁</span>
+      </div>
+      <textarea id="feeling" placeholder="Write whatever you're feeling..." required></textarea>
+      <button type="submit">Post Anonymously</button>
+    </form>
+    <script src="script.js" defer></script>
+
+    <p id="post-confirm" style="text-align: center; color: green; display: none;">✅ Your post has been submitted anonymously!</p>
+  </main>
+
+  <footer>
+    <p>© 2025 SafeSpace. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const form = document.getElementById('journal-form');
+    const confirmMsg = document.getElementById('post-confirm');
+
+    form.addEventListener('submit', function(e) {
+      e.preventDefault(); // Stop page reload
+      confirmMsg.style.display = 'block'; // Show confirmation
+      form.reset(); // Clear form
+    });
+  </script>
+  
+
+</body>
+</html>
+

@@ -1,0 +1,395 @@
+@media (max-width: 768px) {
+  .form-container, .wall-container, .resource-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .feature-grid {
+    flex-direction: column;
+  }
+
+  .testimonial-slider {
+    max-width: 100%;
+  }
+
+  .testimonial {
+    font-size: 1rem;
+    padding: 20px;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 8px 6px;
+    font-size: 0.9rem;
+  }
+
+  .hero h2 {
+    font-size: 1.4rem;
+  }
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f8fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #4e8cff;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+}
+
+footer {
+  background-color: #4e8cff;
+  color: white;
+  text-align: center;
+  padding: 0.5em;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form h2 {
+  text-align: center;
+}
+
+form label {
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4e8cff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #326edb;
+}
+
+.wall-container {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.wall-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.post {
+  background-color: #ffffff;
+  border-left: 5px solid #4e8cff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.resource-container {
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 20px;
+}
+
+.resource {
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-left: 5px solid #4e8cff;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+}
+
+.resource a {
+  color: #4e8cff;
+  text-decoration: none;
+}
+
+.resource a:hover {
+  text-decoration: underline;
+}
+
+/* Font setup */
+body {
+  font-family:sans-serif;
+}
+
+/* CTA Button */
+.cta-btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 25px;
+  background-color: #4e8cff;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+  background-color: #356de0;
+}
+
+/* Features section */
+.features {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.feature-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.feature-card {
+  background-color: #ffffff;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.07);
+  border-left: 5px solid #4e8cff;
+  border-radius: 8px;
+}
+
+/* Quote section */
+.quote {
+  background-color: #e7f0ff;
+  padding: 30px;
+  text-align: center;
+  font-style: italic;
+  margin: 40px 0;
+}
+
+.quote span {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: #4e8cff;
+}
+
+.about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+  padding: 40px 20px;
+  background-color: #f4f8fb;
+}
+
+.about-text {
+  max-width: 500px;
+}
+
+.about-img img {
+  max-width: 350px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.mental-health {
+  padding: 40px;
+  background-color: #e7f0ff;
+  text-align: center;
+}
+
+.mental-health ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.mental-health li {
+  background: white;
+  margin: 10px auto;
+  padding: 12px;
+  border-left: 5px solid #4e8cff;
+  max-width: 500px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.urgent {
+  background-color: #ffe6e6;
+  text-align: center;
+  padding: 30px;
+  font-weight: bold;
+  color: #900;
+}
+
+.testimonials {
+  padding: 50px 20px;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonials h2 {
+  margin-bottom: 30px;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+.mood-soft {
+  background: linear-gradient(135deg, #fef9f9, #f0f8ff);
+}
+
+.testimonial span {
+  display: block;
+  margin-top: 15px;
+  font-style: normal;
+  color: #4e8cff;
+  font-weight: bold;
+}
+
+/* Arrows */
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 2rem;
+  color: #4e8cff;
+  cursor: pointer;
+  background-color: rgba(255,255,255,0.7);
+  padding: 8px 15px;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.arrow.left {
+  left: 10px;
+}
+
+.arrow.right {
+  right: 10px;
+}
+
+.arrow:hover {
+  background-color: #4e8cff;
+  color: white;
+}
+
+.testimonial-slider {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+}
+
+.testimonial-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.testimonial {
+  flex: 0 0 100%;
+  max-width: 100%;
+  box-sizing: border-box;
+  padding: 30px;
+  background-color: white;
+  border-radius: 10px;
+  margin: 0 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-style: italic;
+  font-size: 1.1rem;
+  min-height: 120px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 6px;
+  resize: vertical;
+  border: 1px solid #ccc;
+  min-height: 150px;
+  box-sizing: border-box;
+}
+
+body.dark-mode {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+}
+
+body.dark-mode header,
+body.dark-mode footer {
+  background-color: #333;
+}
+
+body.dark-mode .testimonial,
+body.dark-mode .feature-card,
+body.dark-mode .resource,
+body.dark-mode .quote blockquote {
+  background-color: #2a2a2a;
+  color: #f0f0f0;
+  border-left-color: #6a9eff;
+}
+
+#themeToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 15px;
+  background: #4e8cff;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.emoji-tracker {
+  margin: 10px 0;
+  font-size: 1.5rem;
+}
+
+.emoji-tracker span {
+  cursor: pointer;
+  margin: 0 8px;
+  transition: transform 0.2s;
+}
+
+.emoji-tracker span:hover {
+  transform: scale(1.3);
+}
