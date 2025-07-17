@@ -14,15 +14,6 @@ function moveSlide(direction) {
   track.style.transform = `translateX(${shift}%)`;
 }
 
-document.addEventListener("DOMContentLoaded", () => {
-  // 🌗 Theme toggle
-  const toggleBtn = document.getElementById('themeToggle');
-  if (toggleBtn) {
-    toggleBtn.addEventListener('click', () => {
-      document.body.classList.toggle('dark-mode');
-    });
-  }
-
   // 🎭 Emoji mood selector
   const emojis = document.querySelectorAll(".emoji-tracker span");
   emojis.forEach((emoji) => {
